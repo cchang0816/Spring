@@ -15,5 +15,8 @@
 	<ul>
 		<li>master 브랜치에 직접적인 push를 막으면 좋다</li>
 	</ul>
+	
+	<p>${list }</p>
+	
 </body>
 </html>
