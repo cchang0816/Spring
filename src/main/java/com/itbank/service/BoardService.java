@@ -13,13 +13,9 @@ import com.itbank.model.vo.BoardVO;
 @Service
 public class BoardService {
 	
-	private Logger log = LoggerFactory.getLogger(getClass());
-	
 	@Autowired private BoardDAO dao;
 
 	public List<BoardVO> getBoards() {
-		log.debug("메서드 호출됨~");
-		
 		return dao.selectAll();
 	}
 	
